@@ -19,7 +19,7 @@ body{
 .flex{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .container{
@@ -42,9 +42,8 @@ body{
   gap: 50px;
 }
 /* navbar */
-ul .flex{
-  display: flex;
-  align-items: center;
+.navbar {
+  justify-content: space-between;
 }
 
 ul li{
@@ -54,7 +53,7 @@ ul li{
 
 ul li a {
   text-decoration: none;
-  color: #696969;
+  color: #929292;
   font-weight: 400;
   font-size: 24px;
   font-family: "Jost", sans-serif;
@@ -67,6 +66,7 @@ ul li a {
 }
 
 ul li a:hover{
+  color: var(--primary-color);
   border-bottom: 2px solid black;
 }
 
@@ -87,7 +87,7 @@ ul li a:hover{
   height: 377px;
   border: 3px solid black;
   position: relative;
-  top: 38px;
+  top: 34px;
   left: 188px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
@@ -111,4 +111,73 @@ ul li a:hover{
 }
 .hero-image-images{
   z-index: 100;
+  margin-right: -20px;
+}
+
+/* 1st item section */
+
+.item-description{
+  margin-left: 180px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.item-description-header{
+  font-size: 48px;
+  font-weight: 400;
+  display: inline;
+  text-align: center;
+  border-bottom: 3px solid var(--primary-color);
+}
+.item-description-paragraph{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.item-1-btn{
+  margin: 30px 100px;
+}
+.style-2{
+  margin-top: 100px;
+}
+.pricetag{
+  justify-content: flex-end;
+  margin-top: 30px;
+  gap: 200px;
+}
+.pricetag-text{
+  border-bottom: 2px solid var(--primary-color);
+  margin-right: 180px;
+}
+.color-select-box{
+  gap: 20px;
+}
+.color-selection-box-1{
+  width: 30px;
+  height: 30px;
+  background: #E6E5E0;
+  margin-bottom: 5px;
+}
+.color-selection-box-2{
+  width: 30px;
+  height: 30px;
+  background: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+/* item-2 section */
+.item-2-description{
+  margin-left: 30px;
+}
+.item-2-btn{
+  margin: 30px 100px;
+}
+.pricetag-2{
+  margin-top: 30px;
+ display: flex;
+}
+.color-selection-2-box-1{
+  width: 30px;
+  height: 30px;
+  background: #EC9359;
 }
