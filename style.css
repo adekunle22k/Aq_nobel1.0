@@ -80,11 +80,6 @@ ul li a {
 
 }
 
-.active{
-  color: var(--primary-color);
-  border-bottom: 2px solid black;
-}
-
 ul li a:hover{
   color: var(--primary-color);
   border-bottom: 2px solid black;
