@@ -392,3 +392,9 @@ form input:focus {
   gap: 20px;
 }
 
+.sub-head-btn{
+  margin: 50px 0 50px 500px;
+  padding: 11px 100px;
+  text-align: center;
+}
+
