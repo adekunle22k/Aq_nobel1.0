@@ -94,15 +94,10 @@ ul li a {
   font-size: 24px;
   font-family: "Jost", sans-serif;
 }
-
-.ul li a:active{
-  color: var(--primary-color);
-  border-bottom: 2px solid black;
-}
-
 ul li a:hover{
   color: var(--primary-color);
   border-bottom: 2px solid black;
+  padding-bottom: 5px;
 }
 
 .navbar-icons .icon{
@@ -249,6 +244,7 @@ ul li a:hover{
   font-weight: 400;
   border-left: 4px solid var(--primary-color);
   margin-bottom: 100px;
+  padding-left: 5px;
 }
 span{
   font-weight: 700;
